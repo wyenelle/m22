@@ -7,16 +7,16 @@ import Img from '../assets/front.jpeg'
 </script>
 
 <template>
-    <main class="w-full flex-vertical  h-screen bg-black text-white md:bg-white md:text-black ">
-    <nav class="mt-3">
+    <main class="w-full  flex-vertical  h-screen bg-black pb-6 text-white ">
+    <nav class="mt-1 ">
         <h2 class="font-extrabold text-2xl pl-6 md:pl-10 "> Counter App </h2>
     </nav>
-    <header data-aos="zoom-in"  class="w-full h-auto md:h-5/6 mt-10 md:mt-3 grid grid-cols-2 ">
-                <div class="col-span-2 md:col-span-1  flex flex-col justify-around items-center text-center gap-5 md:justify-center md:items-start  pl-10 md:text-start py-4">
+    <header data-aos="zoom-in"  class="w-full  h-auto md:h-5/6 mt-5 md:mt-3 grid grid-cols-2 ">
+                <div class="col-span-2 md:col-span-1  flex flex-col justify-between items-center text-center gap-8 md:justify-center md:items-start md:pl-10  md:text-start py-4">
                     <h1 class="w-9/12 h1">
                         A better way to build counter apps
                     </h1>
-                    <p class="text-gray-300 md:text-gray-500 w-10/12">
+                    <p class="text-gray-300  w-10/12">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit illo harum. Inventore aut rerum dolorem est, tempore sunt culpa?
                   </p>
                   <RouterLink to="/counter">
