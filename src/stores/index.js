@@ -15,7 +15,7 @@ export const store = createStore({
             state.number = 0
         },
         setValue(state,payload){
-            state.number = payload
+            state.number = (state.number * 1) + (payload * 1)
         }
     }
     

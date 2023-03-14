@@ -20,7 +20,7 @@ import Img from '../assets/front.jpeg'
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit illo harum. Inventore aut rerum dolorem est, tempore sunt culpa?
                   </p>
                   <RouterLink to="/counter">
-                          <Button text="counter" class="btn" />
+                          <Button text="Counter" class="btn" />
                       </RouterLink>
                     </div>
 
